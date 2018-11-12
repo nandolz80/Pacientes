@@ -1,6 +1,5 @@
 
 var campoFiltro = document.querySelector("#filtrar-tabela");
-console.log(campoFiltro);
 
 campoFiltro.addEventListener("input", function(){
     var pacientes = document.querySelectorAll(".paciente");
